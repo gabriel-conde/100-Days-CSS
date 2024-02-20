@@ -10,23 +10,27 @@
 <body>
     <div class="nav" id="topNav">
         <a class="active" href="#home">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">News</a>
-        <a href="#">Contact</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
         <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
             <i class="fa fa-bars"></i>
         </a>
-        <script>
-            function hamburgerMenu() {
-                var x = document.getElementById("topNav");
-                if (x.className === "nav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "nav";
-                }
-            }
-        </script>
     </div>
+    <div class="main">
+        <h1>100 Days CSS</h1>
+        <p>Create a simple navigation bar.</p>
+    </div>
+    <script>
+        function hamburgerMenu() {
+            var x = document.getElementById("topNav");
+            if (x.className === "nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav";
+            }
+        }
+    </script>
 </body>
 </html>

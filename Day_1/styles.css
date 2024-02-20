@@ -66,3 +66,13 @@ body {
       text-align: left;
     }
   }
+
+  /* Main content */
+  .main {
+    padding: 30px;
+    line-height: 35px;
+  }
+
+  .main p {
+    color: gray;
+  }
