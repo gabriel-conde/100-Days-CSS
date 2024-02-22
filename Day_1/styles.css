@@ -69,8 +69,9 @@ body {
 
   /* Main content */
   .main {
-    padding: 30px;
+    margin-top: 260px;
     line-height: 35px;
+    text-align: center;
   }
 
   .main p {
